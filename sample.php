@@ -60,7 +60,7 @@ echo "Creating a new object with key {$key}\n";
 $s3->putObject([
     'Bucket' => $bucket,
     'Key'    => $key,
-    'Body'   => "Hello World!"
+    'Body'   => "Hello Sanjay!"
 ]);
 
 /*
